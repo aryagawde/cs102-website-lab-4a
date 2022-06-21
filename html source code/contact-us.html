@@ -49,11 +49,24 @@
         display: block;
     }
 
-    .footer {
+    table.footertable {
         background-color: navy;
+        border: 0px;
+        color: white;
+        text-align: left;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    ul.footer {
+        list-style-type: none;
+        color: white;
+        padding: 0px;
     }
 
-
+    th, td {
+        padding: 4px;
+    }
 
     </style>
 </head>
@@ -90,11 +103,33 @@
     </ol>
 </div>
 
+
+
 <div class="footer">
 
-<table>
-    <th style="color: #FDDA0D">
-    </th>
+<table class="footertable">
+    <tr style="color: #FDDA0D;">
+        <th style="width: 30%;"> Navigation Menu </th>
+        <th style="width: 40%;"> Establishment </th>
+        <th style="width: 30%;"> Quick Contact </th>
+    </tr>
+    <tr>
+        <td> <ul class="footer"> 
+            <li> Home </li>
+            <li> About Us </li>
+            <li> Steps </li>
+            <li> Collaboration </li>
+            <li> Contact Us </li>
+        </ul></td>
+        <td> Lorem Ipsum dorem dummy text to fill up the space</td>
+        <td> <ul class="footer"> 
+            <li> Home </li>
+            <li> About Us </li>
+            <li> Steps </li>
+            <li> Collaboration </li>
+            <li> Contact Us </li>
+        </ul></td>
+    </tr>
 </table>
 
 </div>
