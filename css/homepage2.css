@@ -1,19 +1,19 @@
 body {
-    background-color: powderblue;
-
+    font-family: Arial;
+    background: url("../img/background.png") repeat 0 0;
 }
 
 header {
-    background-color: rgba(21, 104, 0, 0.911);
-    padding: 8px 10px
+    background-color: #228B22;
+    padding: 1%;
+    padding-left: 5%;
 }
 
 .span1 {
     font-family: verdana;
     margin: 1%;
-    color: antiquewhite;
+    color: white;
     margin-left: 35%;
-    font-size: large;
 }
 
 ul {
@@ -22,7 +22,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: rgb(116, 180, 107);
-
+    text-align: center;
 }
 
 li {
@@ -30,19 +30,13 @@ li {
     border-right: 1px solid rgb(194, 194, 194);
 }
 
-/* :last-child selector is used to select last child of the parent tag */
-
-
-
 li span {
     display: flex;
-    color: rgb(247, 247, 175);
+    color: white;
     text-align: center;
     padding: 10px;
     text-decoration: none;
 }
-
-
 
 li span:hover:not(.functioning) {
     background-color: #19373f;
@@ -51,7 +45,7 @@ li span:hover:not(.functioning) {
 .functioning {
     background-color: #19373f;
     display: flex;
-    color: rgb(247, 247, 175);
+    color: white;
     text-align: center;
     padding: 10px 15px;
     text-decoration: none;
@@ -59,24 +53,20 @@ li span:hover:not(.functioning) {
 
 .flex-use {
     display: flex;
-
 }
 
-.flex-use>div {
-    background-color: grey;
-    margin: 4px;
-    border: 2px solid black;
+.flex-use > div {
+    margin-left: 5%;
+    margin-right: 5%;
     padding: 10px;
-    border-radius: 10px;
-    color: rgb(255, 255, 255);
-
+    color: black;
 }
 
 .main {
     width: 100%;
     background-color: #0f3742;
-    color: aliceblue;
-    margin: 4px;
+    color: white;
+    margin-left: 5%;
     border-radius: 10px;
     text-align: center;
     display: inline-flex;
@@ -89,28 +79,9 @@ li span:hover:not(.functioning) {
     width: 100%;
     margin: 0px;
     border: 0px;
-    border-radius: 2px;
+    border-radius: 5px;
 }
 
-/*.hypclr {
-    width: 20%;
-    float: right;
-    font-size: 20px;
-    text-align: center;
-    background-image: url(../img/waterfall.jpg);
-}
-
-.hypclr a:link {
-    color: aliceblue;
-}
-
-.hypclr a:hover {
-    color: aliceblue;
-}
-
-.hypclr a:visited {
-    color: aliceblue;
-}*/
 
 /* Dropdown menu style */
 
@@ -123,7 +94,6 @@ li span:hover:not(.functioning) {
     display: none;
     position: absolute;
     background-color: #19373f;
-
 }
 
 
