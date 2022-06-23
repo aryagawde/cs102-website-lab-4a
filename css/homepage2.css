@@ -1,20 +1,22 @@
 
+
 body {
-    background-color: powderblue;
+    background-color: white;
+    font-family: Arial;
     
 }
 
 header { 
-    background-color:rgba(21, 104, 0, 0.911);
-    padding: 8px 10px
+    background-color:#228B22;
+    padding: 1%;
+    padding-left: 5%;
 }
 
 .span1 {
     font-family: verdana;
     margin: 1%;
-    color: antiquewhite;
+    color: white;
     margin-left: 35%;
-    font-size: large;
 }
 
 ul {
@@ -23,6 +25,7 @@ ul {
     padding:0;
     overflow:hidden;
     background-color: rgb(116, 180, 107);
+    text-align: center;
     
 }
 
@@ -35,26 +38,25 @@ li {
 
 li:last-child {
     /*border-left: 1px solid rgb(194, 194, 194);*/
+    font-family: Arial;
 }
 
 li span {
     display: flex;
-    color: rgb(247, 247, 175);
-    text-align:center;
+    color: white;
+    text-align: center;
     padding: 10px 15px;
     text-decoration: none;
 }
-
-
 
 li span:hover:not(.functioning){
     background-color: #19373f;
 }
 
 .functioning{
-    background-color: #19373f;
+    background-color: rgb(116, 180, 107);
     display: flex;
-    color: rgb(247, 247, 175);
+    color: white;
     text-align:center;
     padding: 10px 15px;
     text-decoration: none;
@@ -66,7 +68,7 @@ li span:hover:not(.functioning){
 }
 
 .flex-use > div {
-    background-color: grey;
+    background-color: lightgrey;
     margin: 4px;
     border: 2px solid black;
     padding: 10px;
@@ -98,7 +100,7 @@ li span:hover:not(.functioning){
 
 
 .dropitmcontent a{
-    color:rgb(247, 247, 175);
+    color: white;
     padding:10px 15px;
     text-align: center;
     text-decoration: none;
