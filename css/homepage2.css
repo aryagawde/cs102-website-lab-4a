@@ -1,0 +1,114 @@
+
+body {
+    background-color: powderblue;
+    
+}
+
+header { 
+    background-color:rgba(21, 104, 0, 0.911);
+    padding: 8px 10px
+}
+
+.span1 {
+    font-family: verdana;
+    margin: 1%;
+    color: antiquewhite;
+    margin-left: 35%;
+    font-size: large;
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: rgb(116, 180, 107);
+    
+}
+
+li {
+    float: left;
+    border-right: 1px solid rgb(194, 194, 194);
+}
+
+/* :last-child selector is used to select last child of the parent tag */
+
+li:last-child {
+    /*border-left: 1px solid rgb(194, 194, 194);*/
+}
+
+li span {
+    display: flex;
+    color: rgb(247, 247, 175);
+    text-align:center;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+
+
+li span:hover:not(.functioning){
+    background-color: #19373f;
+}
+
+.functioning{
+    background-color: #19373f;
+    display: flex;
+    color: rgb(247, 247, 175);
+    text-align:center;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.flex-use {
+    display:flex;
+    
+}
+
+.flex-use > div {
+    background-color: grey;
+    margin: 4px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.main {
+    width:100%;
+    background-color: black; 
+    color:aliceblue;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+/* Dropdown menu style */
+
+.drop{
+    display: inline-flex;
+
+}
+
+.dropitmcontent{
+    display: none;
+    position:absolute;
+    background-color: #19373f;
+
+}
+
+
+.dropitmcontent a{
+    color:rgb(247, 247, 175);
+    padding:10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+}
+
+.drop:hover .dropitmcontent{
+    display:block;
+}
+
+.dropitmcontent a:hover{
+    background-color: #295966;
+}
