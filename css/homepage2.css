@@ -170,3 +170,7 @@ li span:hover:not(.functioning) {
 .extraphotos:hover {
     opacity: 1;
 }
+
+a:visited {
+    text-decoration: none;
+} 
