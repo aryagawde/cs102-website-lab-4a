@@ -174,3 +174,25 @@ li span:hover:not(.functioning) {
 a:visited {
     text-decoration: none;
 } 
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th {
+    height: 75px;
+    background-color: cadetblue;
+    color: black;
+  }
+  
+  th,
+  td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 54px;
+  }
+  
+  tr:hover {
+    background-color: cyan;
+  }
+  
